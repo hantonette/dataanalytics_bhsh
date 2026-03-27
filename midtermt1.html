@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midterm Task 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/midtermt1.css"> <!-- External CSS -->
+</head>
+
+<body>
+
+  <div class="image-caption-container">
+    <img src="images/drawio.png" alt="Sample Image">
+    <div class="caption">
+      <h2 style="font-family: 'Times New Roman', Times, serif;"><b>Midterm Task 1</b></h2>
+      <p>
+<b>Lab - Preparing Data</b><br>  
+<b>Objectives</b>  
+In this lab, you will learn the basics of cleaning data in Microsoft Excel. Data needs to be cleaned before it can be analyzed. Cleaning the data makes it easier to read and interpret, ensures consistency and accurate results, and enables a better decision-making process.
+
+<b>Part 1:</b> Explore a Sample Set of Data  
+Part 2: Data Cleaning  
+
+<b>Background / Scenario</b>  
+The rapidly increasing volume and complexity of data are due to growing mobile data traffic, cloud computing traffic, and adoption of technologies including the Internet of Things and Artificial Intelligence. Data in its raw form is useless unless it can be cleaned and analyzed to provide information that leads to knowledge and wisdom for actionable intelligence. Businesses are quickly discovering that they do not actually want data itself—they want the information and knowledge that comes from data, which they can use to make better decisions.
+
+<b>Required Resources</b>  
+Mobile device or PC/laptop with an internet connection and Microsoft Excel or similar spreadsheet program.  
+Note: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.
+      </p>
+    </div>
+  </div>
+
+   <script>
+    // Toggle zoom when image is clicked
+    const img = document.getElementById('zoom-image');
+    img.addEventListener('click', () => {
+      img.classList.toggle('zoomed');
+    });
+  </script>
+
+  <button onclick="goBack()" class="back-btn">←</button>
+<script>
+function goBack() {
+  if (document.referrer !== "") {
+    history.back();
+  } else {
+    window.location.href = "index.html#projects";
+  }
+}
+</script>
+
+</body>
+</html>

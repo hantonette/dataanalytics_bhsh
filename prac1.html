@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paired Task 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/prac1.css">
+  <style>
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    iframe {
+      border: 1px solid #000;
+      width: 90%;
+      height: 600px;
+    }
+  </style>
+
+<button onclick="goBack()" class="back-btn">←</button>
+<script>
+function goBack() {
+  if (document.referrer !== "") {
+    history.back();
+  } else {
+    window.location.href = "index.html#projects";
+  }
+}
+</script>
+
+</head>
+<body>
+  <h1 style="font-family: 'Poppins';">PRACTICE TASK 1</h1>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQiWfr2RXTjjWpGQ6yfOQ_Lx1d_qD8liNPuSS5qJWNxHt-sPkllAzUo4sYWjUXIGfnffXzPoiU_3MrJ/pubhtml"></iframe>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Midterm Task 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/midtermt2.css">
+  <style>
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    iframe {
+      border: 1px solid #000;
+      width: 90%;
+      height: 600px;
+    }
+  </style>
+
+</div>
+<button onclick="goBack()" class="back-btn">←</button>
+<script>
+function goBack() {
+  if (document.referrer !== "") {
+    history.back();
+  } else {
+    window.location.href = "index.html#projects";
+  }
+}
+</script>
+
+</head>
+<body>
+     <div class="image-caption-container">
+    <img src="images/midtermt2.png" alt="Sample Image">
+    <div class="caption">
+<p><b>Midterm - Pivot Table​s</b>
+<b>Objectives</b>
+In this lab, you will learn the basics of creating a pivot table in Microsoft Excel. Pivot tables provide a way to automatically summarize, analyze, explore, and present data. Charts add visualizations to the data in the pivot table that analyze trends and comparisons.
+
+<b>Part 1:</b> Creating an Excel Pivot Table
+
+<b>Part 2:</b> Visualizing Pivot Table Data​​​​​​​
+
+<b>Background / Scenario</b>
+The bicycle sales company wants to determine the purchasing patterns of different demographic groups to identify areas where it needs to concentrate its marketing efforts. The company also wants to see if there are purchasing differences between the countries where it operates.
+Pivot tables can reveal useful information in records or data that is not obvious at first sight by summarizing and re-presenting the data so trends can be explored and reported. Pivot tables extract meaning from the data by grouping it in different ways, enabling useful conclusions to be made.
+The "pivot" part of a pivot table stems from the fact that that the data can be rotated (pivoted) to view it from a different perspective.
+It is important to note that pivot tables do not add to, subtract from, or otherwise change, the data; the pivot table just reorganizes the data to reveal useful information.
+
+<b>Required Resources</b>
+Mobile device or PC/laptop with an internet connection and the free version of Microsoft 365 Excel online or similar spreadsheet program
+Note: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.</p>
+</p>
+  </div>
+</div>  
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQv_Aqa2LBFtTBzHumsChDzjyWB9TZdLVxWzFeBh4gF8ypYKRg-o6VwSqusL8pbCXhAyK-a3vh4j1Cu/pubhtml"></iframe>
+</body>
+</html>
