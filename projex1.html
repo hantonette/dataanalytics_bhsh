@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paired Task 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/projex1.css">
+</head>
+
+<body>
+
+<!-- backbutton -->
+<button onclick="goBack()" class="back-btn">←</button>
+<script>
+function goBack() {
+  if (document.referrer !== "") {
+    history.back();
+  } else {
+    window.location.href = "index.html#projects";
+  }
+}
+</script>
+
+<input type="radio" id="trigger1" name="slider">
+<label for="trigger1"><span class="sr-only"></span></label>
+<div class="slide bg1"></div>
+
+<input type="radio" id="trigger2" name="slider" checked autofocus>
+<label for="trigger2"><span class="sr-only"></span></label>
+<div class="slide bg2"></div>
+
+<input type="radio" id="trigger3" name="slider">
+<label for="trigger3"><span class="sr-only"></span></label>
+<div class="slide bg3"></div>
+
+<input type="radio" id="trigger4" name="slider">
+<label for="trigger4"><span class="sr-only"></span></label>
+<div class="slide bg4"></div>
+
+<input type="radio" id="trigger5" name="slider">
+<label for="trigger5"><span class="sr-only"></span></label>
+<div class="slide bg5"></div>
+
+<input type="radio" id="trigger6" name="slider">
+<label for="trigger6"><span class="sr-only"></span></label>
+<div class="slide bg6"></div>
+
+</body>
+</html>
+    
